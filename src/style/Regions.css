@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Cairo:wght@500&family=Comfortaa:wght@300&family=Open+Sans+Condensed:ital,wght@0,300;1,300&family=Poppins:ital@1&family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&family=Roboto:ital,wght@0,400;0,500;1,300&family=Source+Sans+Pro:ital,wght@0,200;1,200;1,300&family=Source+Serif+Pro:ital,wght@0,200;0,300;1,300&display=swap');
+*{
+    margin: 0;
+    border: 0,5;
+    box-sizing: border-box;
+   
+}
+/* #rundiv{
+    width: 100%;
+    height: 100vh;
+   
+} */
+
+
+.images {
+    
+     width: 70%; 
+   border-radius: 7px;
+    margin: 5% auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+    opacity: 0.7;
+    /* box-shadow: 0px 15px -10px 21px rgba(0,0,0,0.50);
+   -webkit-box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 0.658); */
+  
+}
+.id{
+margin-bottom: 90px;
+color: white;
+font-size: x-large;
+margin-top: 70px;
+}
+
+.imgee-container {
+    width: 45%;
+   
+    
+ 
+}
+
+ .img1 {
+    width: 100%;
+    height: 400px;
+    border-radius: 7px;
+    
+}
+.img2 {
+    width: 100%;
+    height: 400px;
+    border-radius: 7px;
+    
+}
+.imgee-container:hover{
+    transform: scale(1.01);
+    
+}
+
+.reg-div-con {
+    width: 60px;
+    margin: 0 auto;
+}
+.reg-div-con button {
+    width: 150px; 
+    height:60px;
+    position: relative;
+    top: -70px;
+    right: 40px;
+ align-items: center;
+    z-index: 10;
+    align-items: center;
+    background-color: green;
+    border-radius: 30px;
+    border:none;
+  font-size: x-large;
+  font-family: sans-serif;
+  color: white;
+  cursor: pointer;
+}
+.reg-div-con button:hover{
+    width: 120px;
+    height: 90px;
+    transform: rotate(0deg)   
+}
+
+@media only screen and (max-width: 768px){
+ .images{
+     width: 350px;
+     height: 80vh;
+     margin-top: 150px;
+     gap: 15px;
+     height: 25vh;
+ 
+    } 
+    .reg-div-con button{
+  width: 80px;
+  font-size: medium;
+  margin-left: 28px;
+  
+    }  
+    .img1{
+        margin-top: 28px;
+        height: 166px;
+    }
+    
+    .img2{
+        height: 166px;
+
+    }
+
+}

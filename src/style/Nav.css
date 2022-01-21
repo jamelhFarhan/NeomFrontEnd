@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Comfortaa:wght@300&family=Open+Sans+Condensed:ital,wght@0,300;1,300&family=Poppins:ital@1&family=Pushster&family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&family=Roboto:ital@1&family=Source+Sans+Pro:ital,wght@0,200;1,200;1,300&family=Source+Serif+Pro:ital,wght@0,200;0,300;1,300&display=swap');
+
+   
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+nav{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 13vh;
+    position: fixed;
+    width: 100%;
+    top: 0;
+   
+    z-index: 999;
+    background-color: rgba(109, 109, 141, 0.13);
+  
+} 
+
+
+ .nav-linkes{
+  display: flex;
+  justify-content: space-around;
+width: 45;
+
+
+
+}
+.link {
+  text-decoration: none;
+color: white;
+ font-size: medium;
+
+}
+li {
+  display: inline-block;
+  padding: 45px;
+  
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+  nav{
+    width: 398px;
+ 
+  }
+  .link {
+    text-decoration: none;
+
+   font-size: 10px;
+  
+  }
+  .link:hover{
+    background-color: rgb(177, 177, 219); 
+  }
+  li {
+
+   
+    
+  }
+}
+
+
+     
+
+
+
+
+
+ 

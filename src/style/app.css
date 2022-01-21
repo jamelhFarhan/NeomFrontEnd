@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+}
+.progress-bar{
+    height: 5px;
+    background: var(--primary);
+    margin-top: 20px;
+  }
+
+@media only screen and (max-width: 768px){
+    .container{
+        width: 330px;
+        margin-top: 60px;
+        
+    }
+
+}
